@@ -2468,10 +2468,16 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		height: 95px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			/* padding: 0 0 0 1em; */
+			margin-bottom: 10px;
+			padding-left: 0px;
 			vertical-align: middle;
 		}
 
@@ -3056,7 +3062,7 @@ input, select, textarea {
 				height: 100vh;
 				left: 50%;
 				position: absolute;
-				top: 100%;
+				top: 106%;
 				width: 1px;
 			}
 
@@ -3532,4 +3538,9 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+	ul.actions.special.projects{
+		display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 	}
